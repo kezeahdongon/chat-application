@@ -12,7 +12,7 @@ body {
 .container {
   background-color: var(--color-white);
   height: 100%;
-  max-width: 600px;
+  max-width: 400px;
 }
 
 #tagline {
@@ -21,8 +21,8 @@ body {
   margin-bottom: 100px;
 }
 .btn {
-  max-width: 300px;
-  margin: 20px 150px;
+  max-width: 200px;
+  margin: 10px 100px;
   display: block;
   background: var(--color-brown-02);
   color: var(--color-golden-brown-01);
@@ -31,6 +31,10 @@ body {
   box-shadow: none !important;
 }
 
-.btn:focus{
+.btn:focus {
   outline: none !important;
+}
+
+#profile {
+  text-align: center;
 }
