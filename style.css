@@ -1,8 +1,36 @@
 :root {
-  --color-golden-brown: #ffcc47;
+  --color-white: white;
+  --color-golden-brown-01: #ffcc47;
+  --color-golden-brown-02: #fff;
+
 }
 
-.container-lg {
-  background-color: var(--color-golden-brown);
+body {
+  background-color: var(--color-golden-brown-01);
+}
+
+.container {
+  background-color: var(--color-white);
   height: 100%;
+  max-width: 600px;
+}
+
+#tagline {
+  font-style: italic;
+  font-family: monospace;
+  margin-bottom: 100px;
+}
+.btn {
+  max-width: 300px;
+  margin: 20px 150px;
+  display: block;
+  background: var(--color-brown-02);
+  color: var(--color-golden-brown-01);
+  font-weight: bolder;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn:focus{
+  outline: none !important;
 }
