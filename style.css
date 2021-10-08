@@ -5,6 +5,7 @@
 
 }
 
+/* container */
 body {
   background-color: var(--color-golden-brown-01);
 }
@@ -15,6 +16,7 @@ body {
   max-width: 400px;
 }
 
+/* index.html */
 #tagline {
   font-style: italic;
   font-family: monospace;
@@ -35,6 +37,8 @@ body {
   outline: none !important;
 }
 
-#profile {
+/* profile.html */
+.name {
   text-align: center;
+  font-weight: bolder;
 }

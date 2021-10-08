@@ -7,6 +7,8 @@ login.addEventListener('click', e => {
   location.replace('log-in.html');
 });
 
+
+
 // log-in page log-in button
 loginPage.addEventListener('click', e  => {
   e.preventDefault();
