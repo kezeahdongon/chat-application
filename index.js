@@ -1,5 +1,5 @@
-const login = document.querySelector('#log-in');
-const loginPage = document.querySelector('#log_in');
+const login = document.querySelector('.log-in');
+const loginPage = document.querySelector('#log-in');
 
 // main page log-in button
 login.addEventListener('click', e => {
